@@ -1875,4 +1875,7 @@ color:#fff;
   .align-text-top {
 	vertical-align: text-top !important;
   }
-  
+  	padding: 0 15px;
+	font-family: sans-serif;
+	background: #eeeeee;
+  }
