@@ -24,6 +24,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;}
+	
 /*for-section-text-start-here*/
 ::selection {
  background: #00394f; /* WebKit/Blink Browsers */
@@ -229,7 +230,7 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
-	background:rgba(248, 248, 248, 0);
+	background:#fff;
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
 }
@@ -241,12 +242,12 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 25%;
-	position: relative;
+	left: 3%;
+	position: fixed;
 }
 #menu ul.nav li a {
-	font-size:15px;
-	color:#fff;
+	font-size:22px;
+	color: #000;;
 }
 #menu .nav > li > a {
 	background:none;
@@ -268,7 +269,7 @@ ul.nav li.active a:before {
 	opacity:1;
 }
 .on {
-	background:rgba(0, 0, 0, 0.8);
+	background:#fff;
 	transition:all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1908,4 +1909,8 @@ color:#fff;
 	padding: 0 15px;
 	font-family: sans-serif;
 	background: #eeeeee;
+  }
+  .organizer-logo{
+	width: 190px;
+	height: 100px;
   }
