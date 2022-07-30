@@ -162,6 +162,9 @@ h5 {
 h6 {
 	font-size:16px;
 }
+.white{
+	color: white;
+}
 strong {
 	font-weight:bolder;
 }
@@ -233,6 +236,7 @@ a.btn-send:hover {
 	background:#fff;
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
+	z-index: 10;
 }
 a.navbar-brand img {
 	position:relative;
@@ -242,12 +246,18 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 3%;
+	right: 1%;
 	position: fixed;
 }
 #menu ul.nav li a {
-	font-size:22px;
+	right: 0%;
 	color: #000;;
+}
+.stand-font {
+	font-size:20px;
+}
+.low-font{
+	font-size: 12px;
 }
 #menu .nav > li > a {
 	background:none;
@@ -1917,4 +1927,10 @@ color:#fff;
   .speaker{
 	width: 250px;
 	height: 250px;
+  }
+  .z-10{
+	z-index: 10;
+  }
+  .partners{
+	height: 200px;
   }
