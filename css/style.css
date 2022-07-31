@@ -1921,8 +1921,8 @@ color:#fff;
 	background: #eeeeee;
   }
   .organizer-logo{
-	width: 190px;
-	height: 100px;
+	width: 160px;
+	height: 80px;
   }
   .speaker{
 	width: 250px;
@@ -1933,4 +1933,7 @@ color:#fff;
   }
   .partners{
 	height: 200px;
+  }
+  .w-80{
+	width: 80px;
   }
