@@ -37,6 +37,16 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
   [endif]-->
+  <style>
+    .dropdown-submenu{
+      position: relative;
+    }
+    .dropdown-submenu .dropdown-menu{
+      top: 0;
+      left: 100%;
+      margin-top: -1px;
+    }
+  </style>
 </head>
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
 <!--Preloader--
@@ -45,9 +55,9 @@
     <div class="preload-placeholder"></div>
   </div>
 </div>
-<!--Navigation-->
+Navigation-->
 <header id="menu">
-  <div class="navbar navbar-default stand-font" style="position: fixed;top: 45px;width: 100%;">
+  <div class="navbar navbar-default stand-font navbar-fixed-top">
     <div class="container">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -83,18 +93,8 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
               <h1>7<sup>th</sup> Ideal Village and WHEELS Conference on</h1>
               <h2>Rural Transformation for Sustainable Growth</h2>
+              <h3 class="white font-30">Organized Jointly by <strong class="font-weight-bolder">Stanford Ideal Village Project, <br>WHEELS Global Foundation, Pan IIT-Alumni and <br>Banaras Hindu University(Institute of Management Studies), India<br>Friday, Nov. 11<sup>th</sup>through Sunday, Nov. 13<sup>th</sup>2022.</strong></h3>
               <!--<p>ivwgf – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages layouts also in this theme with lots of CSS and JQuery animations</p>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item" style="background-image:url(images/Slider/1.png)">
-        <div class="carousel-caption container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <!--<h1>Global Competition for Best Practices in Rural Development</h1>
-              !--<h2>Creative Themes</h2>-->
-              <h3 class="white">Organized Jointly by <strong class="font-weight-bolder">Stanford Ideal Village Project, WHEELS Global Foundation, Pan IIT-Alumni and Banaras Hindu University(Institute of Management Studies), India</strong> on <strong>November 11<sup>th</sup>-13<sup>th</sup> 2022.</strong></h3>
             </div>
           </div>
         </div>
@@ -103,20 +103,8 @@
         <div class="carousel-caption container">
           <div class="row">
              <div class="col-md-12 col-sm-12 col-xs-12">
-              <h1>Venue</h1>-->
-              <h2>Swantantrata Bhawan, Banaras Hindu University, Varanasi, India</h2>
-              <!--<p>ivwgf – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple page also included in this theme with lots of CSS and JQuery animations</p>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item" style="background-image:url(images/Slider/5.png)">
-        <div class="carousel-caption container">
-          <div class="row">
-             <div class="col-md-12 col-sm-12 col-xs-12">
-              <!--<h1>We Are ivwgf</h1>-->
-              <h2>Agriculture & Farming</h2>
-              <!--<p>ivwgf – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple page also included in this theme with lots of CSS and JQuery animations</p>-->
+              <h1>Venue</h1>
+              <h3 class="white font-30">Swantantrata Bhavan, Banaras Hindu University, Varanasi, India</h3>
             </div>
           </div>
         </div>
@@ -176,13 +164,24 @@
           </div>
         </div>
       </div>
+      <div class="item" style="background-image:url(images/Slider/5.png)">
+        <div class="carousel-caption container">
+          <div class="row">
+             <div class="col-md-12 col-sm-12 col-xs-12">
+              <!--<h1>We Are ivwgf</h1>-->
+              <h2>Agriculture & Farming</h2>
+              <!--<p>ivwgf – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple page also included in this theme with lots of CSS and JQuery animations</p>-->
+            </div>
+          </div>
+        </div>
+      </div>
       <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
   </div>
   <!--/#home-carousel-->
 </section>
 <!--Secondary-nav-start-->
 <header id="menu">
-  <div class="navbar navbar-default navbar-fixed-top low-font" style="font-size:18px">
+  <div class="navbar navbar-default navbar-fixed-top low-font" style="position: fixed;top: 45px;width: 100%; font-size:18px">
     <div class="container">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -208,6 +207,14 @@
     </div>
   </div>
 </header>
+<!--note-->
+<div class="container">
+  <div class="col-md-10 col-sm-10 col-xs-8">
+    <marquee style="width:100%" bgcolor="#fff" scrollamount="5" class="red font-30">
+      <img src="image/new.gif" alt="Note"/>**<strong style="text-color:#fc0303">This is a live document.</strong>
+  </marquee>
+  </div>
+</div>
 <!--Welcome-Start-->
 <section id="welcome">
   <div class="container">
@@ -223,7 +230,7 @@
       <div class="col-md-12 ab-sec">
         <div class="col-md-12">
           <!--<h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>-->
-          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>J</strong></span>oin the movement for <strong>Rural Transformation for Sustainable Growth</strong> organized jointly by <strong class="font-weight-bolder">Stanford Ideal Village Project, WHEELS Global Foundation, Pan IIT-Alumni and Banaras Hindu University(Institute of Management Studies), India</strong> on <strong>November 11<sup>th</sup>-13<sup>th</sup> 2022.</strong></p>
+          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>J</strong></span>oin the movement for <strong>Rural Transformation for Sustainable Growth</strong> organized jointly by <strong class="font-weight-bolder">Stanford Ideal Village Project, WHEELS Global Foundation, Pan IIT-Alumni and Banaras Hindu University(Institute of Management Studies), India</strong> on <strong> Friday, Nov. 11<sup>th</sup> through Sunday, Nov.13<sup>th</sup> 2022.</strong></p>
         </div>
         <!--<div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>-->
       </div>
@@ -245,7 +252,7 @@
       <div class="col-md-12 ab-sec">
         <div class="col-md-12">
           <!--<h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>-->
-          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>I</strong></span>ndia can become a US$5 Trillion economy primarily through rural development because more than 850 million people live in rural areas. This represents a great opportunity to find new markets, develop new labor sources, enhance manufacturing, with large demands for affordable housing, healthcare, energy, education, etc.<br>With 100 years since Indian independence in 2047, India must make the investments to build rural infrastructure, implement social impact projects, improve agriculture, and market many more goods and services to this neglected segment.<br>Rural youth are highly motivated to improve their lives and reverse their migration patterns to live in their communities by birth and start entrepreneurial ventures.<br>This conference will raise the awareness of rural development opportunities and bring industry, academia, NGOs, and Government together to exchange ideas for scaling rural technology applications.<br>Learn from distinguished speakers, panel discussants, exhibitors, and poster presenters about the ‘best practices’ for implementing water conservation and management, scalable healthcare initiatives such as Telemedicine, emerging technologies for alternative energy, and ‘collaborative governance’ of public-private-partnerships’ by including grass roots Panchayats and Village Groups.<br>Opportunities to meet senior government leaders, corporate executives and other experts in the field, discuss various challenges for development.
+          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>I</strong></span>ndia can become a $5 Trillion economy primarily through rural development.  By 2047, India must make investments to build rural infrastructure, implement social impact projects, improve agriculture, offer more goods and services to villagers, and reverse their migration patterns.<br>The 7th Ideal Village Conference brings together industries, academia, NGOs, and Governments to exchange ideas for scaling rural technology and raising the awareness of rural development opportunities.<br>Learn from distinguished speakers, panel discussions, exhibitors, poster presenters, and villagers about ‘best practices’ for implementing water conservation, scalable healthcare initiatives, emerging technologies, alternative energy, and ‘collaborative governance’ with grass roots Panchayats and Village Groups.<br>Meet with senior government leaders, corporate executives, and other experts in this field, to discuss various challenges for rural development.
           </p>
         </div>
         <!--<div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>-->
@@ -257,7 +264,7 @@
 <div class="bg-sec">
   <div class="container">
     <div class="col-md-10 col-sm-10 col-xs-8">
-      <h3>Last date for Registration</h3>
+      <h3>Click here to register yourself:</h3>
     </div>
     <div class="col-md-2 col-sm-2 col-xs-4"> <a class="btn-down" href="https://forms.gle/V8bpP5N3bSoFvzPu6">Register</a> </div>
   </div>
@@ -363,7 +370,7 @@
   <div class="container">
     <div class="col-md-8 col-md-offset-2 col-lg-8">
       <div class="heading" style="text-align:center;">
-        <h2>MISSION & GOA<span>LS</span></h2>
+        <h2>VISI<span>ON</span></h2>
         <div class="line"></div>
         <!--<p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
           et dolore magna aliqua. Ut enim ad minim veniam</p>-->
@@ -373,8 +380,48 @@
       <div class="col-md-12 ab-sec">
         <div class="col-md-12">
           <!--<h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>-->
-          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>O</strong></span>ur mission is to launch a <strong>nationwide Movement for creating Ideal Villages</strong> which uplift and empower underserved communities through the adoption of Best Practices in Rural Development with appropriate Technology.<br>Our goal is to collectively impact 20% of India’s rural population through improved access to Water, Health, Education, Energy, and Livelihoods in a Sustainable way, and by leveraging technology at scale.<br>One of the key pillars for development in the next decade would be <strong>transforming rural communities</strong> by applying <strong>appropriate technologies</strong> to become the engines of global economic growth and create future markets.
-          </p>
+          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>E</strong></span>nable the essential needs in Water, Health, Education, Energy and Livelihoods, in a Holistic and Sustainable manner, using cost-effective technology and stakeholder-collaboration to create an enduring rural economy for 20% of India’s rural population by 2030.</p>
+        </div>
+        <!--<div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>-->
+      </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 col-lg-8">
+      <div class="heading" style="text-align:center;">
+        <h2>MISSI<span>ON</span></h2>
+        <div class="line"></div>
+        <!--<p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+          et dolore magna aliqua. Ut enim ad minim veniam</p>-->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 ab-sec">
+        <div class="col-md-12">
+          <!--<h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>-->
+          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span><strong>T</strong></span>o launch a nationwide Ideal Village Movement to uplift and empower underserved communities through the adoption of Best Practices in Rural Development with appropriate Technology.</p>
+        </div>
+        <!--<div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>-->
+      </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 col-lg-8">
+      <div class="heading" style="text-align:center;">
+        <h2>STRATE<span>GY</span></h2>
+        <div class="line"></div>
+        <!--<p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+          et dolore magna aliqua. Ut enim ad minim veniam</p>-->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 ab-sec">
+        <div class="col-md-12">
+          <!--<h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>-->
+          <p class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><ul class="font-18">
+            <li><span><strong>I</strong></span>dentify best practices from NGOs/Foundations/Academia/SMART Village methodology for scaling across India to create Ideal Villages.</li>
+            <li>Receive buy-in from Central Govt. and State Govt. departments and relevant agencies to enable scaling to achieve the impact goals.</li>
+            <li>Integrate CSR programs and Companies that align with each Ideal Village Track (vertical) to enable expanded pilots and district-level scaling.</li>
+            <li>Maintain a central Ideal Village Project Office and satellite centers for all States involved in the Ideal Village scaling programs.</li>
+            <li>Recruit Ideal Village champions at all levels to ensure integrity, strict adherence, and consistent progress of the rural development mission.</li>
+            <li>Institutes of Eminence (IITs, BHU, etc) mentor 5-10 regional colleges to disseminate  Ideal Village knowhow and research output for scaling.</li>
+          </ul></p>
         </div>
         <!--<div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>-->
       </div>
@@ -529,7 +576,7 @@
             <div class="pull-left"> <i class="fa fa-line-chart"></i> </div>
             <div class="media-body accordion">
               <h5 class="media-heading">Government</h5>
-              <!--<p>Policy Leaders, Department Secretaries, Project Leaders and staff involved in rural development missions covering water, health, education, energy, livelihoods, etc.</p>-->
+              <!--<p>Policy Leaders, Department Secretaries, Project Leaders, District Magistrates and staff involved in rural development missions covering water, health, education, energy, livelihoods, etc.</p>-->
             </div>
           </div>
         </div>
@@ -538,7 +585,7 @@
           <div class="media service-box">
             <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
             <div class="media-body">
-              <h5 class="media-heading">Industry</h5>
+              <h5 class="media-heading">Industry Executives</h5>
               <!--<p>Senior executives of companies that make and/or sell products and services in development projects for infrastructure, manufacturing plants, education, energy, healthcare, and sustainable livelihoods. Distribution and retail organizations that source products from rural areas.</p>-->
             </div>
           </div>
@@ -549,7 +596,7 @@
             <div class="pull-left"><i class="fa fa-cubes"></i></div>
             <div class="media-body">
               <h5 class="media-heading">Banking and Finance</h5>
-              <!--<p>Micro-finance companies, Banks and financial institutions active in projects related to village communities and rural development.</p>-->
+              <!--<p>Micro-finance companies, Banks and financial institutions active in projects related to village communities and rural development</p>-->
             </div>
           </div>
         </div>
@@ -559,7 +606,7 @@
             <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">Academia,Research Labs</h5>
-              <!--<p>Senior academics or scientists from all disciplines who are working on rural technologies or currently have technologies that can be applied for such purposes.</p>-->
+              <!--<p>Senior academics, post-doctoral fellows, field scientists from all disciplines working on rural technologies or currently have technologies that can be applied in rural areas.</p>-->
             </div>
           </div>
         </div>
@@ -568,18 +615,8 @@
           <div class="media service-box">
             <div class="pull-left"> <i class="fa fa-language"></i> </div>
             <div class="media-body">
-              <h5 class="media-heading">Non-Profits or NGOs</h5>
+              <h5 class="media-heading">Foundations or NGOs</h5>
               <!--<p>Practitioners who wish to learn of successful implementations, network with others with similar interests, seek funding, and explore partnerships.</p>-->
-            </div>
-          </div>
-        </div>
-        <!--/.col-md-4-->
-        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-          <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-bullseye"></i> </div>
-            <div class="media-body">
-              <h5 class="media-heading">Foundations</h5>
-              <!--<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>-->
             </div>
           </div>
         </div>
@@ -618,7 +655,7 @@
           <div class="media service-box">
             <div class="pull-left"> <i class="fa fa-bullseye"></i> </div>
             <div class="media-body">
-              <h5 class="media-heading">Venture Capital</h5>
+              <h5 class="media-heading">Venture Capital Firms</h5>
               <!--<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>-->
             </div>
           </div>

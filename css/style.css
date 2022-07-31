@@ -126,10 +126,10 @@ color: #FFF;
 	background-repeat:no-repeat;
 }
 p {
-	font-size:13px;
-	color:#666;
+	font-size:18px;
+	color:#000;
 	font-weight:bolder;
-	line-height:25px;
+	line-height:35px;
 	font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
@@ -141,22 +141,28 @@ h1 {
 	text-transform:uppercase;
 }
 h2 {
-	color:#555;
+	color:#000;
 	font-size:35px;
 	text-transform:uppercase;
 	font-weight:bolder;
 }
 h3 {
-	color:#333;
+	color:#000;
 	font-size:23px;
 }
+.font-30{
+	font-size: 30px;
+}
+.font-18{
+	font-size: 18px;
+}
 h4 {
-	color:#555;
+	color:#000;
 	font-size:21px;
 	text-transform:uppercase;
 }
 h5 {
-	color:#333;
+	color:#000;
 	font-size:18px;
 }
 h6 {
@@ -416,9 +422,9 @@ ul.nav li.active a:before {
 }
 .heading p {
 	padding:20px 0px;
-	font-size:13px;
+	font-size:18px;
 	font-weight:bolder;
-	color:#555;
+	color:#000;
 }
 .ab-sec {
 	text-align:justify;
@@ -428,7 +434,7 @@ ul.nav li.active a:before {
 }
 .ab-sec p {
 	padding:10px 0px;
-	font-size:13px;
+	font-size:18px;
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
@@ -606,7 +612,7 @@ ul.nav li.active a:before {
 	display: block;
 	padding: 7px 15px;
 	background: #e5e5e5;
-	color: #64686d;
+	color: #000;
 	position: relative;
 }
 #portfolio .portfolio-filter > li a:hover, #portfolio .portfolio-filter > li a.active {
@@ -742,7 +748,7 @@ ul.nav li.active a:before {
 #pricing ul.pricing li {
 	display: block;
 	padding: 10px;
-	color:#666;
+	color:#000;
 }
 #pricing ul.pricing li.plan-header {
 	background: #f8f8f8;
@@ -827,7 +833,7 @@ ul.nav li.active a:before {
 	color:#007bff;
 }
 .team-sec h5 {
-	color:#555;
+	color:#000;
 	text-transform:uppercase;
 }
 .team-social-icon {
@@ -839,7 +845,7 @@ ul.nav li.active a:before {
 }
 .team-desc ul.team-social-icon li a i.fa {
 	font-size:20px;
-	color:#999;
+	color:#000;
 }
 .team-desc ul.team-social-icon li a i.fa:hover.fa-facebook-f {
 	color:#007bff;
@@ -903,10 +909,10 @@ background:#00394f;
 }
 #fun-facts .fun-fact i {
 	margin-right: 5px;
-	color:#666;
+	color:#000;
 }
 #fun-facts .fun-fact h6 {
-	color:#555;
+	color:#000;
 	font-weight:bolder;
 }
 /*Blog-stylesheets-include-here*/
@@ -924,11 +930,11 @@ background:#00394f;
 .blog-info i.fa {
 	float:left;
 	margin-right:10px;
-	color:#777;
+	color:#000;
 }
 .blog-info h6 {
 	margin:0;
-	color:#666;
+	color:#000;
 	float:left;
 }
 .blog-info h6:hover, .blog-info h5:hover {
@@ -940,7 +946,7 @@ background:#00394f;
 	transition-duration: 0.3s;
 }
 .data-meta {
-	background:#444;
+	background:#000;
 	font-size: 15px;
 	color: #FFF;
 	text-align: center;
@@ -955,7 +961,7 @@ background:#00394f;
 	font-weight:bold;
 }
 a.btn-blg {
-	color:#666;
+	color:#000;
 }
 a.btn-blg:hover {
 	color:#007bff;
@@ -1009,13 +1015,13 @@ a.btn-blg:hover {
 	font-weight:bold;
 }
 .contact-sec-1 ul.contact-form li i.fa {
-	color:#666;
+	color:#000;
 	float:left;
 	margin-right:10px;
 }
 .contact-sec-1 ul.contact-form li h6 {
 	font-size:14px;
-	color:#666;
+	color:#000;
 	margin:0;
 }
 .contact-sec-1 ul {
@@ -1028,7 +1034,7 @@ a.btn-blg:hover {
 	padding-bottom: 30px;
 }
 .contact-sec-1 ul li a {
-	color:#666;
+	color:#000;
 }
 .contact-sec-1 ul li a:hover {
 	color:#007bff;
@@ -1072,7 +1078,7 @@ textarea.form-control {
 	text-align:center;
 }
 #footer-down h2 {
-	color:#444;
+	color:#000;
 	margin:20px 0px 40px 0px;
 	text-transform:none;
 }
@@ -1081,9 +1087,9 @@ textarea.form-control {
 	margin-right:20px;
 }
 #footer-down ul li a i.fa {
-	color:#999;
+	color:#000;
 	font-size:22px;
-	border:2px solid #999;
+	border:2px solid #000;
 	height:50px;
 	width:50px;
 	border-radius:50px;
@@ -1886,40 +1892,7 @@ color:#fff;
   .align-text-top {
 	vertical-align: text-top !important;
   }
-  
-  /*accordion*/
-  .accordion__button{
-	display: block;
-	width: 100%;
-	padding: 15px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	background: #333333;
-	color: #ffffff;
-	text-align: left;
-	transition: background 0.2s;
-  }
-  .accodion__button::after{
-	content:'\25be';
-	float: right;
-	transform: scale(1.5);
-  }
-  .accordion__button--active{
-	background: #555555;
-  }
-  .accordion__button--active::after{
-	content: '\25b4'
-  }
-  .accordion__content{
-	overflow: hidden;
-	max-height: 0;
-	transition: max-height 0.2s;
 
-	padding: 0 15px;
-	font-family: sans-serif;
-	background: #eeeeee;
-  }
   .organizer-logo{
 	width: 160px;
 	height: 80px;
@@ -1937,3 +1910,27 @@ color:#fff;
   .w-80{
 	width: 80px;
   }
+
+  .red{
+	color: red;
+  }
+
+.dropdwn ul li a:hover {
+	color: #000;
+	background: #fff;
+	z-index: 12;
+}
+.dropdwn ul li ul.dropdown {
+	min-width: 100%; /* Set width of the dropdown */
+	background: #f2f2f2;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+}
+.dropdwn ul li:hover ul.dropdown {
+	display: block; /* Display the dropdown */
+}
+.dropdwn ul li ul.dropdown li {
+	display: block;
+}
